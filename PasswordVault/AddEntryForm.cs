@@ -6,9 +6,9 @@ namespace PasswordVault
 {
     public partial class AddEntryForm : Form
     {
-        public PasswordEntry ResultEntry { get; private set; }
+        public PasswordEntry? ResultEntry { get; private set; }
 
-        public AddEntryForm(PasswordEntry existingEntry = null)
+        public AddEntryForm(PasswordEntry? existingEntry = null)
         {
             InitializeComponent();
 
